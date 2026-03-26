@@ -1,0 +1,41 @@
+# Secrets and local env files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
